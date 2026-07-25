@@ -1,0 +1,60 @@
+# Editors and local development tools
+.vscode/
+.idea/
+.agents/
+*.code-workspace
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and coverage output
+build/
+dist/
+*.egg-info/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# Generated machine-learning artifacts
+**/output/
+**/logs/
+**/checkpoints/
+**/tuner_results/
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+*.ckpt.*
+saved_model/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+

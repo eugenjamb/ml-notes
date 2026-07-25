@@ -1,0 +1,33 @@
+import codecademylib3_seaborn
+from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt
+import numpy as np
+
+# ============================================================
+# Simple Linear Regression Example
+# ============================================================
+#
+# What this method does:
+# - fits the best straight line through the data
+# - learns a slope and intercept
+# - uses the line to estimate the target for each x value
+#
+# Why we use it:
+# - it is one of the simplest predictive models
+# - it helps explain correlation, slope, and residual error
+# - it is a useful baseline before trying more complex models
+
+temperature = np.array(range(60, 100, 2))
+temperature = temperature.reshape(-1, 1)
+sales = [65, 58, 46, 45, 44, 42, 40, 40, 36, 38, 38, 28, 30, 22, 27, 25, 25, 20, 15, 5]
+
+# LinearRegression() fits the least-squares line through the training points.
+line_fitter = LinearRegression()
+line_fitter.fit(temperature, sales)
+
+sales_predict = line_fitter.predict(temperature)
+
+
+plt.plot(temperature, sales, 'o')
+plt.plot(temperature, sales_predict, 'o')
+plt.show()
