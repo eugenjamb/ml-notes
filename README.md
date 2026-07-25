@@ -10,15 +10,17 @@ are used, and how important parameters affect a model.
 
 ## Topics
 
-- `supervised/` contains supervised learning algorithms such as regression,
-  classification, decision trees, K-nearest neighbours, SVMs, and Naive Bayes.
-- `unsupervised/` contains unsupervised learning examples such as clustering
-  and dimensionality reduction.
-- `ensembled/` contains bagging, boosting, random forest, and stacking examples.
-- `regularization_and_tuning/` covers L1, L2, ElasticNet, bias versus variance,
-  and hyperparameter search.
-- `pipeline/` demonstrates preprocessing pipelines, column transformers, and
-  model selection with grid search.
+- `machine_learning/supervised/` contains supervised learning algorithms such
+  as regression, classification, decision trees, K-nearest neighbours, SVMs,
+  and Naive Bayes.
+- `machine_learning/unsupervised/` contains unsupervised learning examples such
+  as clustering and dimensionality reduction.
+- `machine_learning/ensemble_methods/` contains bagging, boosting, random
+  forest, and stacking examples.
+- `machine_learning/regularization_and_tuning/` covers L1, L2, ElasticNet, bias
+  versus variance, and hyperparameter search.
+- `machine_learning/pipelines/` demonstrates preprocessing pipelines, column
+  transformers, and model selection with grid search.
 - `deep_learning/` contains TensorFlow/Keras examples for artificial neural
   networks and convolutional neural networks.
 - `nlp/` currently contains text-preprocessing examples.
@@ -50,7 +52,7 @@ python -m pip install tensorflow keras keras-tuner tensorboard pillow
 Then run an individual file from the repository root, for example:
 
 ```powershell
-python supervised\knn\kneighbour_classifier_example.py
+python machine_learning\supervised\knn\kneighbour_classifier_example.py
 ```
 
 Some examples train several models or display graphs, so their running time and
