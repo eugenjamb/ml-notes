@@ -1,14 +1,3 @@
-"""A complete NLTK preprocessing path for one English document.
-
-Install NLTK before running this file:
-
-    python -m pip install nltk
-
-NLTK code and NLTK language datasets are installed separately. The
-download_required_resources() function downloads only the datasets used here.
-NLTK stores them in the user's NLTK data directory, not in this project.
-"""
-
 import re
 
 import nltk

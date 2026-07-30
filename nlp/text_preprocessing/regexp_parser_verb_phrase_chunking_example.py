@@ -1,14 +1,3 @@
-"""Find and count verb phrases with NLTK's RegexpParser.
-
-Install NLTK before running this file:
-
-    python -m pip install nltk
-
-Chunking, also called shallow parsing, groups POS-tagged words into meaningful
-phrases without building a complete grammatical parse tree. This example finds
-verb phrases (VPs), such as "carefully tested the new model".
-"""
-
 from collections import Counter
 
 import nltk

@@ -1,13 +1,3 @@
-"""Preprocess a document corpus and inspect its vocabulary with WordNet.
-
-Install NLTK before running this file:
-
-    python -m pip install nltk
-
-This example applies the same fitted-independent text rules to every document,
-builds corpus statistics, and uses the WordNet corpus to inspect word meaning.
-"""
-
 from itertools import chain
 
 import nltk
