@@ -21,8 +21,8 @@ are used, and how important parameters affect a model.
   versus variance, and hyperparameter search.
 - `machine_learning/pipelines/` demonstrates preprocessing pipelines, column
   transformers, and model selection with grid search.
-- `deep_learning/` contains TensorFlow/Keras examples for artificial neural
-  networks and convolutional neural networks.
+- `deep_learning/` contains TensorFlow/Keras and PyTorch examples for artificial
+  neural networks and convolutional neural networks.
 - `nlp/` currently contains text-preprocessing examples.
 - `data/` contains small local datasets used by some examples.
 
@@ -46,7 +46,7 @@ python -m pip install numpy pandas matplotlib seaborn scikit-learn
 Deep-learning examples may additionally require:
 
 ```powershell
-python -m pip install tensorflow keras keras-tuner tensorboard pillow
+python -m pip install tensorflow keras keras-tuner tensorboard pillow torch
 ```
 
 Then run an individual file from the repository root, for example:
